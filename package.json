@@ -4,7 +4,8 @@
   "description": "Result of a mini hackathon, had to make a chat bot w/ MS bot framework in ~4h",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node index.js"
   },
   "repository": {
     "type": "git",
