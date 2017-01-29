@@ -1,17 +1,26 @@
 {
-  "name": "bot",
+  "name": "chessbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Result of a mini hackathon, had to make a chat bot w/ MS bot framework in ~4h",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjbdev/chessbot.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wjbdev/chessbot/issues"
+  },
+  "homepage": "https://github.com/wjbdev/chessbot#readme",
   "dependencies": {
     "botbuilder": "^3.5.4",
     "botbuilder-location": "^1.0.3",
+    "node-geocoder": "^3.16.0",
     "restify": "^4.3.0",
-    "node-geocoder": 
+    "turf": "^3.0.14"
   }
 }
